@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    width: 800px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background: #1e1e1e;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input, select, button {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    cursor: pointer;
+    background: #00adb5;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #333;
+}
+
+canvas {
+    background: white;
+    border-radius: 8px;
+}
